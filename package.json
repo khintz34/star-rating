@@ -2,11 +2,13 @@
   "name": "star-rating",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://khintz34.github.io/star-rating/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "ghpages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
